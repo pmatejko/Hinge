@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Hinge</OriginalElement>
+  <nodes>
+    <node x="256.875" y="79.0">Hinge.Unit</node>
+    <node x="273.5" y="158.0">Hinge.BattleCard</node>
+    <node x="518.5" y="158.0">Hinge.UpgradeCard</node>
+    <node x="297.25" y="0.0">Hinge.Skill</node>
+    <node x="197.25" y="0.0">Hinge.UnitType</node>
+    <node x="184.0" y="237.0">Hinge.BoardHalf</node>
+    <node x="380.5" y="158.0">Hinge.DowngradeCard</node>
+    <node x="151.75" y="494.0">Hinge.Game</node>
+    <node x="430.26145833333334" y="79.0">Hinge.Card</node>
+    <node x="103.0" y="237.0">Hinge.Hand</node>
+    <node x="410.5" y="237.0">Hinge.Deck</node>
+    <node x="0.0" y="237.0">Hinge.Cemetery</node>
+    <node x="199.5" y="158.0">Hinge.Line</node>
+    <node x="95.75" y="415.0">Hinge.GameBoard</node>
+    <node x="145.0" y="336.0">Hinge.Player</node>
+    <node x="153.75" y="573.0">Hinge.Main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Hinge.Player" target="Hinge.Cemetery">
+      <point x="-20.0" y="-14.5" />
+      <point x="157.0" y="306.0" />
+      <point x="62.25" y="306.0" />
+      <point x="20.75" y="14.5" />
+    </edge>
+    <edge source="Hinge.GameBoard" target="Hinge.Player">
+      <point x="0.0" y="-14.5" />
+      <point x="142.75" y="395.0" />
+      <point x="155.66666666666666" y="395.0" />
+      <point x="-21.333333333333343" y="14.5" />
+    </edge>
+    <edge source="Hinge.DowngradeCard" target="Hinge.Card">
+      <point x="0.0" y="-14.5" />
+      <point x="439.5" y="138.0" />
+      <point x="458.76145833333334" y="138.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Hinge.Deck" target="Hinge.DowngradeCard">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Hinge.BattleCard" target="Hinge.Card">
+      <point x="32.625" y="-14.5" />
+      <point x="349.625" y="128.0" />
+      <point x="439.76145833333334" y="128.0" />
+      <point x="-19.0" y="14.5" />
+    </edge>
+    <edge source="Hinge.BattleCard" target="Hinge.Skill">
+      <point x="10.875" y="-14.5" />
+      <point x="327.875" y="138.0" />
+      <point x="335.75" y="138.0" />
+      <point x="335.75" y="54.0" />
+      <point x="337.0" y="54.0" />
+      <point x="13.249999999999993" y="14.5" />
+    </edge>
+    <edge source="Hinge.UpgradeCard" target="Hinge.Card">
+      <point x="0.0" y="-14.5" />
+      <point x="569.5" y="138.0" />
+      <point x="477.76145833333334" y="138.0" />
+      <point x="19.0" y="14.5" />
+    </edge>
+    <edge source="Hinge.BattleCard" target="Hinge.UnitType">
+      <point x="-32.625" y="-14.5" />
+      <point x="284.375" y="138.0" />
+      <point x="225.25" y="138.0" />
+      <point x="225.25" y="54.0" />
+      <point x="217.25" y="54.0" />
+      <point x="-20.0" y="14.5" />
+    </edge>
+    <edge source="Hinge.Game" target="Hinge.GameBoard">
+      <point x="-7.875" y="-14.5" />
+      <point x="175.375" y="469.0" />
+      <point x="166.25" y="469.0" />
+      <point x="23.5" y="14.5" />
+    </edge>
+    <edge source="Hinge.Game" target="Hinge.Player">
+      <point x="23.625" y="-14.5" />
+      <point x="206.875" y="469.0" />
+      <point x="211.25" y="469.0" />
+      <point x="211.25" y="385.0" />
+      <point x="198.33333333333331" y="385.0" />
+      <point x="21.333333333333314" y="14.5" />
+    </edge>
+    <edge source="Hinge.Deck" target="Hinge.BattleCard">
+      <point x="-19.333333333333314" y="-14.5" />
+      <point x="420.1666666666667" y="212.0" />
+      <point x="317.0" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Hinge.Player" target="Hinge.Deck">
+      <point x="28.0" y="-14.5" />
+      <point x="205.0" y="316.0" />
+      <point x="454.0" y="316.0" />
+      <point x="14.5" y="14.5" />
+    </edge>
+    <edge source="Hinge.Deck" target="Hinge.UpgradeCard">
+      <point x="19.333333333333314" y="-14.5" />
+      <point x="458.8333333333333" y="212.0" />
+      <point x="569.5" y="212.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Hinge.Player" target="Hinge.Hand">
+      <point x="-12.0" y="-14.5" />
+      <point x="165.0" y="296.0" />
+      <point x="118.25" y="296.0" />
+      <point x="-15.25" y="14.5" />
+    </edge>
+    <edge source="Hinge.Main" target="Hinge.Game">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Hinge.Player" target="Hinge.BoardHalf">
+      <point x="12.0" y="-14.5" />
+      <point x="189.0" y="296.0" />
+      <point x="247.75" y="296.0" />
+      <point x="21.25" y="14.5" />
+    </edge>
+    <edge source="Hinge.BattleCard" target="Hinge.Unit">
+      <point x="-10.875" y="-14.5" />
+      <point x="306.125" y="128.0" />
+      <point x="283.875" y="128.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="Hinge.Unit" target="Hinge.Skill">
+      <point x="13.5" y="-14.5" />
+      <point x="297.375" y="54.0" />
+      <point x="310.5" y="54.0" />
+      <point x="-13.25" y="14.5" />
+    </edge>
+    <edge source="Hinge.Unit" target="Hinge.UnitType">
+      <point x="-13.5" y="-14.5" />
+      <point x="270.375" y="54.0" />
+      <point x="257.25" y="54.0" />
+      <point x="20.0" y="14.5" />
+    </edge>
+    <edge source="Hinge.BoardHalf" target="Hinge.Line">
+      <point x="21.25" y="-14.5" />
+      <point x="247.75" y="212.0" />
+      <point x="240.0" y="212.0" />
+      <point x="13.5" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="294.5" y="379.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
