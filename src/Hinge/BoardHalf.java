@@ -131,13 +131,16 @@ public class BoardHalf {                                        // Polowa plansz
 
     public void printHalf(int width){                                                   // Wyswietlanie polowy od pierwszej linii do ostatniej
         for(int i = 0; i <= 2; i++) {
+            String greenColor = "\033[32m";
+            String redColor = "\033[31m";
+            String defaultColor = "\033[0m";
 
             if(lineUpgrade[i])
-                System.out.print("\n|" + "\033[32m" + "+" + "\033[29m" + "|");
+                System.out.print("\n|" + greenColor + "+" + defaultColor + "|");
             else
                 System.out.print("\n| |");
             if(lineDowngrade[i])
-                System.out.print("\033[31m" + "-" + "\033[29m" + "| ");
+                System.out.print(redColor + "-" + defaultColor + "| ");
             else
                 System.out.print(" | ");
 
